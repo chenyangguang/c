@@ -1,4 +1,4 @@
-// Last Update:2015-02-03 22:35:23
+// Last Update:2015-02-03 22:57:10
  /*
 #include <stdio.h>
 int main()
@@ -59,6 +59,7 @@ int main()
 
 */
 
+/*
 #include <stdio.h>
 #define a 12
 int main ()
@@ -67,3 +68,17 @@ int main ()
     return 0;
 }
 
+*/
+
+
+
+/*
+#include <stdio.h>
+
+int main(){
+    double num = 2.5;
+    int num1 = (int)num;
+    printf("num整数部分是%d\n", num1);
+    return 0;
+}
+*/
