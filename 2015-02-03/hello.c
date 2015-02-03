@@ -1,4 +1,4 @@
-// Last Update:2015-02-03 21:39:46
+// Last Update:2015-02-03 22:35:23
  /*
 #include <stdio.h>
 int main()
@@ -24,12 +24,46 @@ int main()
 }
 */
 
+/*
 #include<stdio.h> 
 int main()
 {
     int age;
     age = 100;
     printf("我今年%d岁\n", age);
+    return 0;
+}
+
+*/
+
+/*
+#include <stdio.h>
+
+int main()
+{
+        int age; 
+        int height; 
+        float weight;
+        char isfat;
+        age = 15;
+        height = 162;
+        weight = 82.5;
+        isfat = 'y';
+    printf("年龄：%d 岁\n", age);
+    printf("身高：%d CM\n", height);
+    printf("体重：%f KG\n", weight);
+    printf("是否属于肥胖儿童：%c\n", isfat); 
+
+    return 0;    
+}
+
+*/
+
+#include <stdio.h>
+#define a 12
+int main ()
+{
+    printf("小明今天的了%d元\n", a);
     return 0;
 }
 
