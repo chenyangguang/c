@@ -1,4 +1,4 @@
-// Last Update:2015-02-17 07:35:18
+// Last Update:2015-02-17 07:41:34
 #include <stdio.h>
 int main()
 {
@@ -10,12 +10,16 @@ int main()
     float fd = 15.5; 
 
     char a[] = "chenyangguang"; //array
+    char b[] = "chenyang\0guang"; //stop to \0
 
     //k = 10;
     //printf("%d\n", k);
     //printf("%.1f\n", db); //
-    printf("%c\n", ch);
+    //printf("%c\n", ch);
     //scanf("%d", &k); //& address
-    printf("%u\n", k);
+    //printf("%u\n", k);
+    
+    printf("%s\n", a);
+    printf("%s\n", b);
     return 0;
 }
