@@ -18,7 +18,7 @@ int main()
 {
   int i,num_test = 0;
   float avg, sum = 0;
-  for(i=0; i<5, i++){
+  for(i=0; i<5; i++){
     sum += class[i].score;
     if(class[i].score < 140) num_test++;
   }
