@@ -5,7 +5,7 @@ int main()
     char *string = "Test String";
     int length = strlen(string), i;
 
-    printf("%s\n", string);
+    printf("%p\n", string);
 
     // use *(string+i)
     for(i=0; i<length; i++){
