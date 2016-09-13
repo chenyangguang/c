@@ -1,4 +1,4 @@
-[[./images/blue-bird.jpg]]
+
     
 *** 2016-08-01 
 + 万法归宗, come back to c.
@@ -22,6 +22,6 @@
 
 + [[http://ijiaober.github.io/2014/08/07/sorting-algorithm/][让程序员抓狂的排序算法教学视频]]
 
-
+[[./images/blue-bird.jpg]]
 
 
