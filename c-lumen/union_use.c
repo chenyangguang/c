@@ -49,6 +49,6 @@ int main(){
   Name		Num	Sex	Profession	Score / Course
   chen	101	m	t		100
   Yang	102	w	s		150.000000
-  Nil	103	m	t		111
+  Nil	  103	m	t		111
   Emacs	104	w	s		130.000000
  */
