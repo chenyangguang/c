@@ -1,0 +1,7 @@
+a.out
+test
+*.s
+tags
+.tags
+*.o
+
