@@ -1,7 +1,9 @@
-a.out
-test
-*.s
+./TestDemos/*.out
+./TestDemos/*.s
 tags
 .tags
-*.o
+./TestDemos/*.o
+./c-lumen/*.out
+./c-lumen/*.s
+./c-lumen/test
 
