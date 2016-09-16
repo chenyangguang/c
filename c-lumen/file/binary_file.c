@@ -29,7 +29,7 @@ struct Student{
 void save(){
     FILE *fp;
     int i;
-    fp = fopen("stu.md", "wb");
+    fp = fopen("stu.dat", "wb");
     if(fp == NULL){
         printf("Can't not open file\n");
         return;
