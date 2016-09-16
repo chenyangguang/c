@@ -16,6 +16,7 @@
  * =====================================================================================
  */
 
+#include<string.h>
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -26,7 +27,8 @@ int main()
     printf("Please input a name of file:");
     scanf("%s", filename);
 
-    if(fp=fopen(filename, "w") == NULL)
+    fp = fopen(filename, "w"); /* 这两行拆开，否则 warning: assignment makes pointer from integer without a cast */
+    if(fp == NULL)
     {
         printf("Can't open the file\n");
         exit(0);
