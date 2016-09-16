@@ -42,7 +42,7 @@ int main()
         fputc(ch, out);
         putchar(ch); // display on the screen
     }
-    putchar(10); // \n after display all the string
+    putchar(10); // \n after display all the char
     fclose(in);
     fclose(out);
 
