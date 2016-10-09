@@ -23,4 +23,8 @@
 + 当然，实验是少不了的。自己debug一下 *内存单元的地址* ，并且在纸上手工的画一下是最好了。
 + 最后，有了这些基础，剩下也就好办了。
 + 这就是数据结构.
+
+*** NP: 
++ NP就是Non-deterministic Polynomial的问题，也即是多项式复杂程度的非确定性问题。
+而如果任何一个NP问题都能通过一个多项式时间算法转换为某个NP问题，那么这个NP问题就称为NP完全问题（Non-deterministic Polynomial complete problem）。NP完全问题也叫做NPC问题。
 *** [[https://www.zhihu.com/question/21318658][From]] 
