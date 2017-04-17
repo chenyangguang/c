@@ -55,6 +55,6 @@ objdump -h a.out
 
 + [让程序员抓狂的排序算法教学视频](http://ijiaober.github.io/2014/08/07/sorting-algorithm/)
 
-[](./images/blue-bird.jpg)
+![](./images/blue-bird.jpg)
 
 
