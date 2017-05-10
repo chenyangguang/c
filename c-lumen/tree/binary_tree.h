@@ -10,7 +10,8 @@ Position FindMax(SearchTree T);
 SearchTree Insert(ElementType X, SearchTree T);
 SearchTree Delete(ElementType X, SearchTree T);
 ElementType Retrieve(Position P);
-#endif /* _Tree_H *
+
+#endif 
 
 struct TreeNode
 {
@@ -116,4 +117,25 @@ SearchTree Delete(ElementType X, SearchTree T)
         free(TmpCell);
     }
     return T;
+}
+
+// 按顺序打印二叉查找树例程
+void PrintTree(SearchTree T)
+{
+    if(T != NULL) {
+        PrintTree(T->Left);
+        PrintTree(T->Element);
+        PrintTree(T->Right);
+    }
+}
+
+
+// 后序遍历计算树的高度的例程
+int  Height(TreeNode T)
+{
+    if(T == NULL)
+        return -1;
+    else
+        return 1 + Max(Height(T->Left),
+                       Height(T->Right));
 }
