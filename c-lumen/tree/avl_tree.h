@@ -20,7 +20,7 @@ struct AvlNode
     AvlTree Left;
     AvlTree Right;
     int Height;
-}
+};
 
 // 计算 AVL 节点的高度
 static int Height(Position P)
